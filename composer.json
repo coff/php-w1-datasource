@@ -12,7 +12,16 @@
   ],
   "autoload": {
     "psr-4": {
-      "Coff\\DataSource\\W1": "src/"
+      "Coff\\DataSource\\W1\\": "src/"
     }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "ssh://git@github.com/coff/php-datasource-interface.git"
+    }
+  ],
+  "require": {
+    "coff/php-datasource-interface": "0.1.*"
   }
 }

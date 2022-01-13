@@ -1,0 +1,3 @@
+bin/sync-exclude.txt
+bin/sync.sh
+/vendor/

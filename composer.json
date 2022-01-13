@@ -1,0 +1,18 @@
+{
+  "name": "coff/php-w1-datasource",
+  "description": "API package for One-wire DataSource related classes",
+  "minimum-stability": "stable",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Krzysztof Kubanek",
+      "email": "krzysztof.kubanek@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Coff\\DataSource\\W1": "src/"
+    }
+  }
+}

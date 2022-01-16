@@ -1,6 +1,6 @@
 <?php
 
-namespace Coff\OneWire\DataSource;
+namespace Coff\DataSource\W1;
 
 use Coff\DataSource\Exception\DataSourceException;
 
